@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent-container">
+        <div class="player-form-container">
+            <form class="players-form">
+                <label for="player1">Player 1:</label><br>
+                <input type="text" id="player1" name="player1" required placeholder="Enter Player 1"><br>
+                <label for="player2">Player 2:</label><br>
+                <input type="text" id="player2" name="player2" required placeholder="Enter Player 2"><br><br>
+                <input type="submit" value="Submit">
+            </form> 
+        </div> 
+        <div class="main-parent-box">
+            <div class="player-details">
+                <h2 class="player-turn-head">Player: <span class="player-turn"></span></h2>
+                <button class="restart-button">Restart</button>
+            </div>
+           
+            <div class="parent-box">
+                <div class="box" attr="0"></div>
+                <div class="box" attr="1"></div>
+                <div class="box" attr="2"></div>
+                <div class="box" attr="3"></div>
+                <div class="box" attr="4"></div>
+                <div class="box" attr="5"></div>
+                <div class="box" attr="6"></div>
+                <div class="box" attr="7"></div>
+                <div class="box" attr="8"></div>
+            </div> 
+            
+        </div>
+    </div>
+   
+     <div class="fireworks"></div>
+     <script src="js/fireworks.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
